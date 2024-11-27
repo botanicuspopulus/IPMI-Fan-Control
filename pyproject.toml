@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ipmi-control"
+version = "0.1.0"
+description = ""
+authors = ["William Smith <wsmith1@csir.co.za>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-ipmi = "^0.5.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
